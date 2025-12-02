@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Thumbs Nursery - Contact</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Green Thumbs Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contact-page-main">
+        <h1>Contact Us</h1>
+        
+        <section class="contact-details">
+            <div class="contact-info">
+                <h2>Get in Touch</h2>
+                <p><strong>Address:</strong> 123 Garden Lane, Cityville, CA 90210</p>
+                <p><strong>Phone:</strong> <a href="tel:555-75268">555-PLANT (555-75268)</a></p>
+                <p><strong>Email:</strong> <a href="mailto:info@greenthumbs.com">info@greenthumbs.com</a></p>
+                <p><strong>Hours:</strong> Mon-Sat, 9:00 AM - 5:00 PM</p>
+            </div>
+
+            <form class="contact-form">
+                <h2>Send a Message</h2>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn primary">Send Inquiry</button>
+            </form>
+        </section>
+
+        <section class="map-location">
+            <h2>Find Our Location</h2>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15336.853032791845!2d-78.636034!3d35.779590!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ac5f88f2b7f2f7%3A0x6a0c5c4e9d3e8e12!2sRaleigh%20Little%20Theatre%20Rose%20Garden!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus" 
+                width="100%" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-nav">
+                <a href="index.html">Home</a> | 
+                <a href="about.html">Our Story</a> | 
+                <a href="contact.html">Get in Touch</a>
+            </div>
+            <div class="social-media">
+                <a href="#"><img src="images/facebook.png" alt="Facebook icon"></a>
+                <a href="#"><img src="images/instagram.png" alt="Instagram icon"></a>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2025 Green Thumbs Nursery. Developed by **[Your Name]**.</p>
+    </footer>
+</body>
+</html>
